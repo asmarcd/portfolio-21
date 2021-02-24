@@ -17,6 +17,7 @@ const Intro = () => {
             <p>
                 In another lifetime, before all that, I worked on international relations and local campaign politics. Once  we're done talking coding, ask me about the time I helped remove land mines in Palestine.
             </p>
+            <a href="mailto:asmarcd@gmail.com">Email</a> || <a href = "https://www.linkedin.com/in/chrisasmar/">LinkedIn</a> || <a href = "https://github.com/asmarcd">Github</a>
         </div>
     )
 }
