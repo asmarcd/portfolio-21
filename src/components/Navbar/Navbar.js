@@ -1,4 +1,8 @@
 import React from 'react';
+import Intro from '../Intro/Intro';
+import Portfolio from '../Portfolio/Portfolio';
+import Contact from '../Contact/Contact';
+
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -57,7 +61,7 @@ export default function SimpleTabs() {
 
     return (
         <div className={classes.root}>
-            <AppBar position="static">
+            <AppBar position="static" style={{ background: '#2E3B55' }}>
                 <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
                     <Tab label="Home" {...a11yProps(0)} />
                     <Tab label="Portfolio" {...a11yProps(1)} />
@@ -65,14 +69,14 @@ export default function SimpleTabs() {
                 </Tabs>
             </AppBar>
             <TabPanel value={value} index={0}>
-                Home
-        </TabPanel>
+                <Intro />
+            </TabPanel>
             <TabPanel value={value} index={1}>
-                Portfolio
-        </TabPanel>
+                <Portfolio />
+            </TabPanel>
             <TabPanel value={value} index={2}>
-                Contact
-        </TabPanel>
+                <Contact />
+            </TabPanel>
         </div>
     );
 }
