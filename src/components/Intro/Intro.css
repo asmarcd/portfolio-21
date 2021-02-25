@@ -1,0 +1,25 @@
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.headImage {
+    width: 100%;
+    box-shadow: 2px 2px lightgray;
+}
+
+.headText {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px black;
+}
+
+@media only screen and (max-width:625px) {
+    .headText {
+        font-size: x-large;
+    }
+}
