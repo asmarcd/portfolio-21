@@ -17,15 +17,9 @@ header {
     -webkit-text-stroke: .5px black;
 }
 
-@media only screen and (max-width:800px) {
-    .headText {
-        /* font-size: x-large; */
-    }
-}
-
 @media only screen and (max-width:600px) {
     .headText {
-        font-size: 13px;
+        font-size: 18px;
         -webkit-text-stroke: 0px black;
     }
 }
