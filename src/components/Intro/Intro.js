@@ -1,5 +1,5 @@
 import React from 'react';
-import Boston from './Boston.jpg';
+import Banner from './banner.png';
 import './Intro.css'
 
 const Intro = () => {
@@ -8,7 +8,7 @@ const Intro = () => {
     return (
         <div>
             <header>
-                <img className='headImage' src={Boston} alt='Boston Skyline. Credit IDP' />
+                <img className='headImage' src={Banner} alt='Boston Skyline. Credit IDP' />
                 <h1 className='headText'>Hi, I'm Chris. <br/> I build software for the modern online world.</h1>
             </header>
             <p>
